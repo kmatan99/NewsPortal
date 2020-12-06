@@ -1,0 +1,58 @@
+$red: rgb(155, 75, 88);
+$border: 3px solid rgb(173, 170, 170);
+
+.main {
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.header {
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    border-bottom: $border;
+    align-items: center;
+}
+
+.homeButton {
+    background-color: white;
+    border-radius: 15px;
+    height: 30%;
+    width: 15%;
+    font-weight: bold;
+    color: $red;
+    border-color: $red;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    &:hover {
+		opacity: 0.5;
+	}
+}
+
+.mainArticle {
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.articles {
+    width: 46%;
+    margin: 10px;
+}
+
+.selectedCategory {
+    width: 95%;
+    color: $red;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    font-weight: bolder;
+    font-size: larger;
+}

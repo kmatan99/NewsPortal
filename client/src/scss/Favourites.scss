@@ -1,0 +1,32 @@
+$red: rgb(155, 75, 88);
+
+.favArticles {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 95%;
+}
+
+.paragraph {
+    height: 20px;
+    font-style: italic;
+    font-weight: bolder;
+    color: $red;
+    border-bottom: 3px solid rgb(173, 170, 170);
+    margin-bottom: 0px;
+}
+
+.topicClass {
+    margin-right: 0px;
+    margin-left: auto;
+    border-radius: 15px;
+    background-color: $red;
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-style: italic;
+    border: none;
+}

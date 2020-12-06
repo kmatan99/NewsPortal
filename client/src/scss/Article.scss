@@ -1,0 +1,37 @@
+.titleText {
+    font-size: larger;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+     &:hover {
+		opacity: 0.5;
+	}
+}
+
+img {
+    width: 100%;
+    height: 50%;
+}
+
+.articleContent {
+    margin-top: 10px;
+    overflow: auto;
+}
+
+.contentText {
+    margin-top: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.timeStamp {
+    font-style: italic;
+    padding: 0px;
+    font-size: smaller;
+    margin: auto 0px 0px;
+}
+
+.dateTopic {
+    display: flex;
+    flex-direction: row;
+    margin-top: 5px;
+    width: 100%;
+}
