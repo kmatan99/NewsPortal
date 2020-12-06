@@ -23,8 +23,7 @@ Instructions to set the app up:
 6. cd server
 7. npm install
 
-Steps to run the app:
-//Position yourself inside the NewsPortal directory
+Steps to run the app (position yourself inside the NewsPortal directory):
 
 1. cd client
 2. npm start
