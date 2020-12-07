@@ -27,7 +27,7 @@ Steps to run the app (position yourself inside the NewsPortal directory):
 
 1. cd client
 2. npm start
-3. cd..
+3. Open up new terminal
 4. cd server
 5. npm start
 
